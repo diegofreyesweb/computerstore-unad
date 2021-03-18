@@ -1,0 +1,115 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font: 100% Verdana;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* Coloca la clase header que esta dentro del DIC centrada */			
+#header {
+		margin:auto;
+		width:100%;
+		float:left;
+		max-height:1000px; /* Asignamos un tamaño maximo de 1000 piceles  */
+		margin:20px auto; /* AAsignamos una margen de 20 pieles y que sea auto */
+}
+
+h3 {
+text-align:center
+}	
+ul, ol {
+	list-style:none;
+	}
+			
+.navbar-nav mr-auto > li {
+	float:left;
+}
+
+/* Configurarmos Menu, ubicacion, color*/			
+.navbar-nav mr-auto li a {
+	background-color:#054468;
+	color:#fff;
+	text-decoration:none;
+	padding:20px 20px;
+	display:block;
+}
+			
+.navbar-nav mr-auto li a:hover {
+	background-color:#e19f37;
+}
+			
+.navbar-nav mr-auto li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+			
+.navbar-nav mr-auto li:hover > ul {
+	display:block;
+}
+			
+.navbar-nav mr-auto li ul li {
+	position:relative;
+	}
+			
+.navbar-nav mr-auto li ul li ul {
+	right:-140px;
+	top:100px;
+}
+
+.main .articles { /* Main y articulos */
+	width:68.5%;
+	margin-right:1.5%; /* Asignamos la margen */
+	float:left;
+	background:white;
+}
+
+.main .articles{ /* Main y articulos */
+	width:68.5%;
+	margin-right:1.5%; /* Asignamos la margen */
+	float:left;
+	background:white;
+}
+.main .articles article{
+	padding:20px; /* Asignamos margenes a los articulos*/
+	background:white;
+	margin-bottom:20px; /* Asignamos margenes a los articulos*/
+
+}
+
+header navbar-nav mr-auto ul li a:hover{ /* Cambia el color del menu al pasar el cursor  */
+	background:#e19f37;
+}
+
+aside{
+	background-color:#054468;
+	height: 2000px;
+	width: 300px;
+	overflow: scroll;
+	border: black 1px solid;
+	background:white;
+	float:right;
+	padding:20px;
+	box-sizing:border-box;
+	height: 500px;
+}
+
+footer{ /* Colocamos posicion de footer */
+	
+	background:#e19f37;
+	padding: 10px 0px ;
+	color:White;
+	clear:both;
+	text-align:left;
+	margin-top:50px;
+    width:100%;
+	font: 100% Verdana;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+			

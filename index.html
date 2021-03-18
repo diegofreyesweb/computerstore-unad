@@ -1,0 +1,87 @@
+<!-- Carlos Eduardo Agudelo -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Inicio - Computer Store</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Estilo de la hoja -->
+	<style>
+		 /*clase border de un picel de color negro y solido*/
+		.border{border: 1px #000 solid;}
+		.navbar .nav-item:not(:last-child) {
+		margin-right: 35px;
+		}
+		.dropdown-toggle::after {
+		transition: transform 0.15s linear; 
+		}
+ 
+		.show.dropdown .dropdown-toggle::after {
+		transform: translateY(3px);
+		}		
+	</style>
+  
+  </head>
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">Computer Store</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false">
+					  Administrativo
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">SUBMENU1</a>
+						<a class="dropdown-item" href="#">SUBMENU2</a>
+						<a class="dropdown-item" href="#">SUBMENU3</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false">
+					  Inventario
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="registrar-producto.html">Registrar producto</a>
+						<a class="dropdown-item" href="actualizar-producto.html">Actualizar producto</a>
+						<a class="dropdown-item" href="consultar-producto.html">Consultar producto</a>
+					<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="eliminar-producto.html">Eliminar producto</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false">
+					  Utilidades
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="calcular-producto.html">Calcular Producto</a>
+						<a class="dropdown-item" href="equivalencia.html">Equivalencia Tamaño de Datos</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#"> <!-- Asignamos Nombre al SubMenu --> </a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+			  <input class="form-control mr-sm-2" type="search" placeholder="Digitar búsqueda" aria-label="Digitar búsqueda">
+			  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda</button>
+			</form>
+			</div>
+		</nav>
+
+	<!-- hasta aqui va el codigo -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
